@@ -1,3 +1,9 @@
+CREATE .env file inside movies_api
+ADD these lines  MOVIE_LIST_API_CLIENT_SECRET='Ne5DoTQt7p8qrgkPdtenTK8zd6MorcCR5vXZIJNfJwvfafZfcOs4reyasVYddTyXCz9hcL5FGGIVxw3q02ibnBLhblivqQTp4BIC93LZHj4OppuHQUzwugcYu7TIC5H1'
+MOVIE_LIST_API_CLIENT_ID='iNd3jDMYRKsN1pjQPMRz2nrq7N99q4Tsp9EY9cM0'
+
+
+
 API Documentation
 
 This Endpoint takes username and password and registers and gives the access token
