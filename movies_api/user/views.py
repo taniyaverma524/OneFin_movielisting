@@ -39,7 +39,6 @@ class UserLoginAPIView(APIView):
         password = request.data.get('password', None)
         if username and password:
             user = authenticate(username=username, password=password)
-            print(user, 'user')
             if user:
                 auth_login(request, user)
                 token = get_token(request.data, request)
